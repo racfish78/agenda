@@ -1,0 +1,15 @@
+_HiStOrY_V2_
+DB::table('cards')->insert(['title'=>\040'My\040New\040fucking\040card','created_at'\040=>\040new\040DateTime,\040'updated_at'\040=>\040new\040DateTime]);
+DB::table('cards')->get();
+DB::table('cards')->insert(['title'=>\040'My\040Other\040New\040fucking\040card','created_at'\040=>\040new\040DateTime,\040'updated_at'\040=>\040new\040DateTime]);
+DB::table('cards')->insert(['title'=>\040'My\040Other\040else\040New\040fucking\040card','created_at'\040=>\040new\040DateTime,\040'updated_at'\040=>\040new\040DateTime]);
+DB::table('cards')->insert(['title'=>\040'A\040lot\040of\040cards','created_at'\040=>\040new\040DateTime,\040'updated_at'\040=>\040new\040DateTime]);
+DB::table('cards')->get();
+DB::table('cards')->all();
+App\134Card::all();
+App\134Card::all();
+DB::table('cards')->all();
+DB::table('cards')->get();
+DB::table('cards')->get();
+App\134Card::all();
+exit

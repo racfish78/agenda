@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+<body>
+<link rel=stylesheet href="../jquery.calendarPicker.css" type="text/css" media="screen">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript" src="../jquery.calendarPicker.js"></script>
+<script type="text/javascript" src="jquery.mousewheel.js"></script>
+
+<div id="dsel1" style="width:240px"></div>
+<script type="text/javascript">
+
+
+  var calendarPicker1 = $("#dsel1").calendarPicker({
+    showDayArrows:false,
+    callback:function(cal) {
+      $("#wtf").html("Selected date: " + cal.currentDate);
+    }});
+
+</script>
+
+</body>
+</html>

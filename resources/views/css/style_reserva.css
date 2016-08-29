@@ -1,0 +1,163 @@
+    @viewport {    content="width=device-width, initial-scale=1.0"; }
+    .img-pic { max-width:30px !important;vertical-align: super !important;}
+    .reservado { color: #fff; background: #79002C;
+        transition: background 1s linear;
+            -webkit-transition: background 1s linear;
+            -moz-transition: background 1s linear;
+    }
+    .reservado_meu {
+    color: #fff; background: #f00;
+    transition: background 1s linear;
+     -webkit-transition: background 1s linear;
+     -moz-transition: background 1s linear;
+    }
+
+.entregue{
+color: #fff; background: #f4;
+transition: background 1s linear;
+ -webkit-transition: background 1s linear;
+ -moz-transition: background 1s linear;
+}
+
+.bloco { border:none;padding-bottom: 10px;  }
+.dirr  {   float: right; margin:0; }
+.sairr {  padding-top: 15px; }
+.esqq  {   float: left; width: 95%;}
+.variacao { opacity: 0.1; }
+
+.info2 {
+text-align:center;
+opacity: 0.85;
+width:100%;
+height: 24px;
+display:block;
+background: #fff;
+padding-top: 8px;
+transition: background 1s linear;
+ -webkit-transition: background 1s linear;
+ -moz-transition: background 1s linear;
+}
+
+
+.btn-style  {
+  z-index:1;
+  border : solid 1px #74ccc0;
+  -webkit-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+  -moz-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+  box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+  font-size : 12px;
+  color : #696869;
+  padding :  10px 12px;
+  background : #ffffff;
+  background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(49%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6));
+  background : -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+  background : -webkit-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+  background : -o-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+  background : -ms-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+  background : linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+  filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+}
+
+.btn-style :before{
+  position:absolute;
+  top:0;
+}
+
+.btn-style :hover{
+  border : solid 1px #74ccc0;
+  border-radius : 3px;
+  moz-border-radius : 3px;
+  -webkit-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+  -moz-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+  box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+  font-size : 12px;
+  color : #696869;
+  padding :  10px 12px;
+  background : #ffffff;
+  background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(49%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6));
+  background : -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+  background : -webkit-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+  background : -o-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+  background : -ms-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+  background : linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+  filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+}
+
+.span-btn {
+    position: relative;
+    padding-right: 2px;
+    width: 30px;
+    right: !important 15px;
+    font-size:18px;
+}
+
+.span-btn:after {
+    color: #8fce58;
+    font-family: FontAwesome;
+    content: "\f0e7";
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    pointer-events: none;
+}
+
+  .cal_style{
+    position: fixed;
+    top: 0;
+    width:100%;
+    z-index:1;
+  }
+
+    .Table
+    {
+        display: table;
+        width: 100%;
+      color: #6e;
+      position: relative;
+      top:63px;
+    }
+    .Title
+    {
+        display: table-caption;
+        text-align: center;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .Heading
+    {
+        display: table-row;
+        font-weight: bold;
+        text-align: left;
+    }
+    .Row
+    {
+        display: table-row;
+    }
+
+    .Cell
+    {
+        display: table-cell;
+        padding: 0px;
+        width: 1%;
+    }
+
+    .Cell_chart
+    {
+        z-index: -1;
+        display: table-cell;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 97.6666%;
+    }
+
+    .Cell_btn
+    {
+        display: table-cell;
+        float: left;
+        padding: 0px;
+    }
+
+    .white {
+    background-color:#fff;
+    }
